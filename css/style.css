@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+:root {
+  --font-primary: "Roboto", sans-serif;
+  --color-green-light: #80bc1f;
+  --color-grenn-dark: #309422;
+  --color-light: #ebf0ea;
+  --color-dark: #230c1e;
+  --color-rose-dark: #a80c4b;
+  --color-rose-ligth: #e60d5b;
+}
+
+body {
+  background-color: var(--color-dark);
+}
+.login {
+  display: flex;
+  width: 93vw;
+  justify-content: end;
+  margin-top: 10px;
+}
+.login a {
+  margin-left: 20px;
+  font-family: var(--font-primary);
+  color: var(--color-green-light);
+}
+.fa-user {
+  color: var(--color-light);
+  padding: 5px 7px;
+
+  background-color: var(--color-grenn-dark);
+  border-radius: 50px;
+}
+#header {
+  display: flex;
+  justify-content: center;
+}
+#nav-menu {
+  display: flex;
+  width: 90vw;
+  background-color: var(--color-green-light);
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+#nav-itens {
+  display: flex;
+  font-family: var(--font-primary);
+  padding: 10px;
+}
+#nav-itens a {
+  font-family: var(--font-primary);
+  padding: 0px 15px;
+  color: var(--color-light);
+  letter-spacing: 2px;
+  transition: 0.5s ease;
+  display: inline-block;
+}
+.logo {
+  height: 60px;
+  transition: 0.5s ease;
+  margin-left: 30px;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+#nav-itens a:hover {
+  color: var(--color-dark);
+  transform: scale(1.1);
+}
+p {
+  border-top: salmon;
+}
+#menuToggle{
+    display: none;
+}
